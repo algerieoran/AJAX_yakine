@@ -5,6 +5,7 @@
 		<script src="ajax_exo.js"></script>
 	</head>
 	<body>
+	
 		<form method="post" action="">
 			<div>
 				<label for="prenom">Prenom </label><br>
@@ -17,9 +18,9 @@
 			</div>
 
 			<div>
-				<label>Civilité </label><br>
-				<input type="radio" name="civilite" value="m" checked>Homme
-				<input type="radio" name="civilite" value="f" checked>femme
+				<label>Sexe </label><br>
+				<input type="radio" class="sexe" name="sexe" value="m" checked>Homme
+				<input type="radio" class="sexe" name="sexe" value="f" checked>femme
 			</div>
 
 			<div>
